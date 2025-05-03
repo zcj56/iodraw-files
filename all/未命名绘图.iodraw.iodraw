@@ -737,6 +737,12 @@
         <mxCell id="FKSWMcQdRUFMpX3QsX_Q-40" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="FKSWMcQdRUFMpX3QsX_Q-39">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FKSWMcQdRUFMpX3QsX_Q-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.37;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FKSWMcQdRUFMpX3QsX_Q-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="467" y="319" as="sourcePoint" />
+            <mxPoint x="517" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
