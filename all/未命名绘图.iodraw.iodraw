@@ -346,48 +346,6 @@
         <mxCell id="rRAlUnp2YhWrFQ-NLSkE-116" value="+stop_alert()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rRAlUnp2YhWrFQ-NLSkE-112">
           <mxGeometry y="95.14999961853027" width="126" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-117" value="QTableWidget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.700000762939453;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="992" y="551" width="118" height="36.70000076293945" as="geometry" />
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-118" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rRAlUnp2YhWrFQ-NLSkE-117">
-          <mxGeometry y="24.700000762939453" width="118" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-119" value="QComboBox" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.700000762939453;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="551" width="105" height="36.70000076293945" as="geometry" />
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-120" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rRAlUnp2YhWrFQ-NLSkE-119">
-          <mxGeometry y="24.700000762939453" width="105" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-121" value="OpenCV" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.700000762939453;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="438" y="732" width="74" height="36.70000076293945" as="geometry" />
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-122" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rRAlUnp2YhWrFQ-NLSkE-121">
-          <mxGeometry y="24.700000762939453" width="74" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-125" value="触发" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-90" target="rRAlUnp2YhWrFQ-NLSkE-112">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-126" value="显示数据" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=1;exitY=0.97;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-90" target="rRAlUnp2YhWrFQ-NLSkE-117">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1051" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-127" value="筛选目标" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=1;exitY=0.74;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-90" target="rRAlUnp2YhWrFQ-NLSkE-119">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1213" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-128" value="依赖" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-99" target="rRAlUnp2YhWrFQ-NLSkE-121">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
