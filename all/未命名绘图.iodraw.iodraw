@@ -128,9 +128,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-1" value="&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;- 关系定义 &lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="214.79998779296875" y="413.79998779296875" width="87" height="36" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
