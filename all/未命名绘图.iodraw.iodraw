@@ -122,7 +122,7 @@
           <mxGeometry y="119.8" width="266" height="28" as="geometry" />
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-40" value="FrameBufferPool" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=27.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="761" y="568" width="172" height="147.8" as="geometry" />
+          <mxGeometry x="921" y="566" width="172" height="147.8" as="geometry" />
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-41" value="-buffer_size: int = 10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V7P7OnKnSDBbbwoHf6N8-40">
           <mxGeometry y="27.8" width="172" height="28" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry y="119.8" width="172" height="28" as="geometry" />
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-46" value="ExceptionHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.149999618530273;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="988" y="574" width="288" height="124.14999961853027" as="geometry" />
+          <mxGeometry x="1148" y="572" width="288" height="124.14999961853027" as="geometry" />
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-47" value="-hardware_monitor: HardwareMonitor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V7P7OnKnSDBbbwoHf6N8-46">
           <mxGeometry y="29.149999618530273" width="288" height="29" as="geometry" />
