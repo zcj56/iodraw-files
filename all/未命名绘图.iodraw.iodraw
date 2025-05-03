@@ -248,25 +248,11 @@
         <mxCell id="L0RZ6D7WRKf28F61VAbN-41" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-40">
           <mxGeometry y="24.700000762939453" width="179" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-42" value="依赖 (调用推理)" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.37;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-2" target="L0RZ6D7WRKf28F61VAbN-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="182" y="719" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-43" value="配置硬件参数" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.97;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-2" target="L0RZ6D7WRKf28F61VAbN-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="60" y="593" />
               <mxPoint x="60" y="1024" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-44" value="启动/停止线程" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=1;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-2" target="L0RZ6D7WRKf28F61VAbN-40">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="411" y="593" />
             </Array>
           </mxGeometry>
         </mxCell>
