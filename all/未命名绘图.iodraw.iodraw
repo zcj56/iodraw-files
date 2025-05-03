@@ -511,6 +511,9 @@
             <mxPoint x="538" y="197" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="r7AKiX688jO8npXUW1Dk-29" value="flowchart TD&#xa;    A[用户点击保存按钮] --&gt; B{输入类型判断}&#xa;    B --&gt;|静态图片| C[生成标注图片]&#xa;    B --&gt;|视频文件| D[启动视频保存线程]&#xa;    B --&gt;|摄像头流| E[弹出禁止保存提示]&#xa;    C --&gt; F[写入CSV记录]&#xa;    D --&gt; G[初始化VideoWriter]&#xa;    G --&gt; H[逐帧处理]&#xa;    H --&gt; I[更新进度条]&#xa;    I --&gt; J{是否完成?}&#xa;    J --&gt;|否| H&#xa;    J --&gt;|是| K[关闭资源]&#xa;    F &amp; K --&gt; L[显示保存成功提示]&#xa;    style A fill:#4CAF50,stroke:#388E3C&#xa;    style E fill:#FF5252,stroke:#D32F2F&#xa;    style L fill:#2196F3,stroke:#1976D2" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="37" width="261" height="252" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
