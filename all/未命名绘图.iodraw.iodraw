@@ -254,6 +254,9 @@
         <mxCell id="L0RZ6D7WRKf28F61VAbN-56" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
           <mxGeometry x="599" y="476" width="10" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="L0RZ6D7WRKf28F61VAbN-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="216" y="493" width="40" height="5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
