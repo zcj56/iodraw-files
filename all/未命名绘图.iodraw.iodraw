@@ -174,7 +174,7 @@
           <mxGeometry y="320.3285718645368" width="194" height="24" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-17" value="YOLOv8Model" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25.400000678168404;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="95" y="753" width="267" height="233.4000006781684" as="geometry" />
+          <mxGeometry x="533" y="242" width="267" height="233.4000006781684" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-18" value="- model_path: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-17">
           <mxGeometry y="25.400000678168404" width="267" height="25" as="geometry" />
