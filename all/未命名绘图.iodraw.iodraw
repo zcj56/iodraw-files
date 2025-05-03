@@ -129,7 +129,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L0RZ6D7WRKf28F61VAbN-2" value="MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.32857186453683;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="137" y="225" width="194" height="344.3285718645368" as="geometry" />
+          <mxGeometry x="133" y="319" width="194" height="344.3285718645368" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-3" value="- model: YOLOv8Model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-2">
           <mxGeometry y="24.32857186453683" width="194" height="24" as="geometry" />
