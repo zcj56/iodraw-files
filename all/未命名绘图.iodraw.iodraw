@@ -753,12 +753,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zaGYLg99s0LWZhm_w0Os" name="第 7 页">
-    <mxGraphModel dx="2564" dy="1130" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1831" dy="807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-18" value="Ui_MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.8545448996804;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="492" y="1335" width="271" height="282.8545448996804" as="geometry" />
+          <mxGeometry x="506" y="255" width="271" height="282.8545448996804" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-19" value="- QWidget centralwidget" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-18">
           <mxGeometry y="24.8545448996804" width="271" height="25" as="geometry" />
@@ -794,7 +794,7 @@
           <mxGeometry y="257.8545448996804" width="271" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-30" value="&lt;&lt;PyQt5控件&gt;&gt;&#xa;QDoubleSpinBox" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46.333333333333336;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1685" width="213" height="147.33333333333334" as="geometry" />
+          <mxGeometry x="241" y="605" width="213" height="147.33333333333334" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-31" value="+ valueChanged: pyqtSignal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-30">
           <mxGeometry y="46.333333333333336" width="213" height="31" as="geometry" />
@@ -809,7 +809,7 @@
           <mxGeometry y="116.33333333333334" width="213" height="31" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-35" value="&lt;&lt;PyQt5控件&gt;&gt;&#xa;QGroupBox" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=47.099998474121094;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="47" y="1708" width="109" height="86.0999984741211" as="geometry" />
+          <mxGeometry x="61" y="628" width="109" height="86.0999984741211" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-36" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-35">
           <mxGeometry y="47.099998474121094" width="109" height="8" as="geometry" />
@@ -818,7 +818,7 @@
           <mxGeometry y="55.099998474121094" width="109" height="31" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-38" value="&lt;&lt;PyQt5控件&gt;&gt;&#xa;&lt;&lt;PyQt5控件&gt;&gt;&#xa;QCheckBox" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=58.29999923706055;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="492" y="1779" width="211" height="124.29999923706055" as="geometry" />
+          <mxGeometry x="506" y="699" width="211" height="124.29999923706055" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-39" value="+ stateChanged: pyqtSignal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-38">
           <mxGeometry y="58.29999923706055" width="211" height="29" as="geometry" />
@@ -831,63 +831,63 @@
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="331" y="1417" as="sourcePoint" />
-            <mxPoint x="491" y="1417" as="targetPoint" />
+            <mxPoint x="345" y="337" as="sourcePoint" />
+            <mxPoint x="505" y="337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0.001;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="95" y="1707" as="sourcePoint" />
-            <mxPoint x="96.38700000000006" y="1562.61" as="targetPoint" />
+            <mxPoint x="109" y="627" as="sourcePoint" />
+            <mxPoint x="110.38700000000006" y="482.6099999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-68" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=-0.007;entryY=-0.108;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="96" y="1563" as="sourcePoint" />
-            <mxPoint x="491.50199999999995" y="1564.6080000000002" as="targetPoint" />
+            <mxPoint x="110" y="483" as="sourcePoint" />
+            <mxPoint x="505.50199999999995" y="484.6080000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-69" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="271" y="1685" as="sourcePoint" />
-            <mxPoint x="272" y="1602" as="targetPoint" />
+            <mxPoint x="285" y="605" as="sourcePoint" />
+            <mxPoint x="286" y="522" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-70" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="272" y="1601" as="sourcePoint" />
-            <mxPoint x="493" y="1603.2" as="targetPoint" />
+            <mxPoint x="286" y="521" as="sourcePoint" />
+            <mxPoint x="507" y="523.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-71" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ShRZxjk7uCB-lcTWOpNf-38">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="282" y="1611" as="sourcePoint" />
-            <mxPoint x="596" y="1617" as="targetPoint" />
+            <mxPoint x="296" y="531" as="sourcePoint" />
+            <mxPoint x="610" y="537" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-72" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.1;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ShRZxjk7uCB-lcTWOpNf-30">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="98" y="1636" as="sourcePoint" />
-            <mxPoint x="248" y="1514" as="targetPoint" />
+            <mxPoint x="112" y="556" as="sourcePoint" />
+            <mxPoint x="262" y="434" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-73" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.695;entryY=1.126;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="185" y="1870" as="sourcePoint" />
-            <mxPoint x="188" y="1515.85" as="targetPoint" />
+            <mxPoint x="199" y="790" as="sourcePoint" />
+            <mxPoint x="202" y="435.8499999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="188" y="1576.85" />
+              <mxPoint x="202" y="496.8499999999999" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-77" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.006;entryY=1.162;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ShRZxjk7uCB-lcTWOpNf-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="188" y="1871" as="sourcePoint" />
-            <mxPoint x="397" y="1833" as="targetPoint" />
+            <mxPoint x="202" y="791" as="sourcePoint" />
+            <mxPoint x="411" y="753" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-79" value="MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="117" y="1144" width="214" height="368.2" as="geometry" />
+          <mxGeometry x="131" y="64" width="214" height="368.2" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-80" value="- QMainWindow parent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-79">
           <mxGeometry y="24.2" width="214" height="24" as="geometry" />
