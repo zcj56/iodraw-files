@@ -772,10 +772,10 @@
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-6" value="- QDoubleSpinBox doubleSpinBox_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="96.2" width="214" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-7" value="- YOLO model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
+        <mxCell id="ShRZxjk7uCB-lcTWOpNf-7" value="- QLabel label_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="120.2" width="214" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-8" value="- QTimer warning_timer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
+        <mxCell id="ShRZxjk7uCB-lcTWOpNf-8" value="- QLabel label_12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="144.2" width="214" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-9" value="+ ...其他方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
