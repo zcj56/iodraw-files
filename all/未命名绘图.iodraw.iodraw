@@ -412,7 +412,7 @@
         <mxCell id="gnIfd42VYDz7vrx93zrS-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;帧数据&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="529.000048828125" y="370.9999755859375" width="61" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="gnIfd42VYDz7vrx93zrS-22" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+        <mxCell id="gnIfd42VYDz7vrx93zrS-22" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-4" target="gnIfd42VYDz7vrx93zrS-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="106" y="682" as="sourcePoint" />
             <mxPoint x="156" y="632" as="targetPoint" />
