@@ -244,9 +244,12 @@
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-50" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="322" y="357" as="sourcePoint" />
+            <mxPoint x="330" y="357" as="sourcePoint" />
             <mxPoint x="482" y="357" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L0RZ6D7WRKf28F61VAbN-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="216" y="572" width="40" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
