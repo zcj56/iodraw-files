@@ -265,9 +265,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="id58HB5_DUNN-DmaaSM5-1" value="@startuml&#xa;class MainWindow {&#xa;  - model: YOLO&#xa;  - cap: cv2.VideoCapture&#xa;  - timer_camera: QTimer&#xa;  - conf: float&#xa;  - iou: float&#xa;  - device: str&#xa;  + open_img()&#xa;  + vedio_show()&#xa;  + camera_show()&#xa;  + save_result()&#xa;  + signalconnect()&#xa;}&#xa;&#xa;&#xa;class YOLO {&#xa;  + __init__(path: str)&#xa;  + predict(img) -&gt; Results&#xa;}&#xa;&#xa;&#xa;class btn2Thread {&#xa;  - org_path: str&#xa;  - model: YOLO&#xa;  - conf: float&#xa;  - iou: float&#xa;  + run()&#xa;  + stop()&#xa;}&#xa;&#xa;&#xa;class Config {&#xa;  - model_path: str&#xa;  - CH_names: Dict[int, str]&#xa;  - csv_save_path: str&#xa;}&#xa;&#xa;&#xa;class detect_tools {&#xa;  + img_cvread(path: str) -&gt; np.ndarray&#xa;  + cvimg_to_qpiximg(cv_img) -&gt; QPixmap&#xa;  + drawRectBox(img, box, label, font, color)&#xa;}&#xa;&#xa;&#xa;MainWindow &quot;1&quot; *-- &quot;1&quot; YOLO : 组合&#xa;MainWindow &quot;1&quot; --&gt; &quot;1&quot; Config : 依赖&#xa;MainWindow &quot;1&quot; --&gt; &quot;1&quot; detect_tools : 依赖&#xa;MainWindow &quot;1&quot; --&gt; &quot;1&quot; btn2Thread : 创建线程&#xa;btn2Thread &quot;1&quot; --&gt; &quot;1&quot; YOLO : 调用检测&#xa;YOLO &quot;1&quot; --&gt; &quot;1&quot; detect_tools : 绘制结果&#xa;@enduml" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="275" height="785" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
