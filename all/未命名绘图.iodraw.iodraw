@@ -669,7 +669,7 @@
           <mxGeometry y="233.1" width="331" height="25" as="geometry" />
         </mxCell>
         <mxCell id="FKSWMcQdRUFMpX3QsX_Q-12" value="QTimer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=31.399998982747395;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="359" width="170" height="101.39999898274739" as="geometry" />
+          <mxGeometry x="455" y="15" width="170" height="101.39999898274739" as="geometry" />
         </mxCell>
         <mxCell id="FKSWMcQdRUFMpX3QsX_Q-13" value="+ timeout: pyqtSignal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FKSWMcQdRUFMpX3QsX_Q-12">
           <mxGeometry y="31.399998982747395" width="170" height="31" as="geometry" />
@@ -716,13 +716,6 @@
         <mxCell id="FKSWMcQdRUFMpX3QsX_Q-27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FKSWMcQdRUFMpX3QsX_Q-26">
           <mxGeometry y="24.700000762939453" width="45" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="FKSWMcQdRUFMpX3QsX_Q-28" value="包含" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.85;entryX=0.39;entryY=0;rounded=0;" edge="1" parent="1" source="FKSWMcQdRUFMpX3QsX_Q-1" target="FKSWMcQdRUFMpX3QsX_Q-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="71" y="313" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FKSWMcQdRUFMpX3QsX_Q-29" value="包含" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.44;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FKSWMcQdRUFMpX3QsX_Q-1" target="FKSWMcQdRUFMpX3QsX_Q-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -741,13 +734,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="802" y="313" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FKSWMcQdRUFMpX3QsX_Q-32" value="触发检查" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.76;exitY=0;entryX=0.07;entryY=1;rounded=0;" edge="1" parent="1" source="FKSWMcQdRUFMpX3QsX_Q-12" target="FKSWMcQdRUFMpX3QsX_Q-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="189" y="313" />
             </Array>
           </mxGeometry>
         </mxCell>
