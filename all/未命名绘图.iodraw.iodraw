@@ -242,12 +242,6 @@
         <mxCell id="L0RZ6D7WRKf28F61VAbN-39" value="+to_csv()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-33">
           <mxGeometry y="142.89999898274738" width="193" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-40" value="AsyncFrameProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.700000762939453;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="596" y="35" width="179" height="36.70000076293945" as="geometry" />
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-41" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-40">
-          <mxGeometry y="24.700000762939453" width="179" height="12" as="geometry" />
-        </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-43" value="配置硬件参数" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.97;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-2" target="L0RZ6D7WRKf28F61VAbN-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -267,21 +261,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="327" y="1024" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-47" value="调用推理" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.26;exitY=1.01;entryX=0.76;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-40" target="L0RZ6D7WRKf28F61VAbN-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="319" y="719" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-48" value="输出" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.56;exitY=1.01;entryX=0.56;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-40" target="L0RZ6D7WRKf28F61VAbN-33">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="437" y="719" />
-              <mxPoint x="437" y="1024" />
             </Array>
           </mxGeometry>
         </mxCell>
