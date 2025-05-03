@@ -204,7 +204,7 @@
           <mxGeometry y="208.4000006781684" width="267" height="25" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-27" value="HardwareConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=27.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1069" width="157" height="147.8" as="geometry" />
+          <mxGeometry x="216" y="679" width="157" height="147.8" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-28" value="- use_cuda: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-27">
           <mxGeometry y="27.8" width="157" height="28" as="geometry" />
@@ -222,7 +222,7 @@
           <mxGeometry y="119.8" width="157" height="28" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-33" value="DetectionResult" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.899998982747395;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="323" y="1058" width="193" height="169.89999898274738" as="geometry" />
+          <mxGeometry x="519" y="668" width="193" height="169.89999898274738" as="geometry" />
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-34" value="- locations: List[tuple]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-33">
           <mxGeometry y="26.899998982747395" width="193" height="27" as="geometry" />
@@ -241,28 +241,6 @@
         </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-39" value="+to_csv()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L0RZ6D7WRKf28F61VAbN-33">
           <mxGeometry y="142.89999898274738" width="193" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-43" value="配置硬件参数" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.97;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-2" target="L0RZ6D7WRKf28F61VAbN-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="60" y="593" />
-              <mxPoint x="60" y="1024" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-45" value="依赖 (硬件加速)" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.37;exitY=1;entryX=0.83;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-17" target="L0RZ6D7WRKf28F61VAbN-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="182" y="1024" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-46" value="生成" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.79;exitY=1;entryX=0.16;entryY=0;rounded=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-17" target="L0RZ6D7WRKf28F61VAbN-33">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="327" y="1024" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
