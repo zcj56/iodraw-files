@@ -758,7 +758,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-2" value="Ui_MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="497" y="1248" width="214" height="368.2" as="geometry" />
+          <mxGeometry x="493" y="1247" width="214" height="368.2" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-3" value="- QWidget centralwidget" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="24.2" width="214" height="24" as="geometry" />
@@ -784,7 +784,7 @@
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="192.2" width="214" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-11" value="+__init__(parent=None)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
+        <mxCell id="ShRZxjk7uCB-lcTWOpNf-11" value="- QGroupBox groupBox_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="200.2" width="214" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-12" value="+signalconnect()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
