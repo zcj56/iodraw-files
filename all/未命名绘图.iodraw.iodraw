@@ -504,8 +504,11 @@
         </mxCell>
         <mxCell id="r7AKiX688jO8npXUW1Dk-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="89" y="222" as="sourcePoint" />
-            <mxPoint x="249" y="222" as="targetPoint" />
+            <mxPoint x="179" y="239" as="sourcePoint" />
+            <mxPoint x="295" y="239" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="236" y="239" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r7AKiX688jO8npXUW1Dk-24" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="r7AKiX688jO8npXUW1Dk-23">
