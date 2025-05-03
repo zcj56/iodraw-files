@@ -103,12 +103,6 @@
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-121" value="+handle_exception()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V7P7OnKnSDBbbwoHf6N8-115">
           <mxGeometry y="142.89999898274738" width="294" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="V7P7OnKnSDBbbwoHf6N8-122" value="QFileDialog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.700000762939453;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1325" width="101" height="36.70000076293945" as="geometry" />
-        </mxCell>
-        <mxCell id="V7P7OnKnSDBbbwoHf6N8-123" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="V7P7OnKnSDBbbwoHf6N8-122">
-          <mxGeometry y="24.700000762939453" width="101" height="12" as="geometry" />
-        </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-124" value="threading" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.700000762939453;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="922" y="1325" width="88" height="36.70000076293945" as="geometry" />
         </mxCell>
@@ -135,9 +129,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7P7OnKnSDBbbwoHf6N8-129" value="依赖" style="curved=1;startArrow=none;endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="V7P7OnKnSDBbbwoHf6N8-108" target="V7P7OnKnSDBbbwoHf6N8-122">
+        <mxCell id="V7P7OnKnSDBbbwoHf6N8-129" value="依赖" style="curved=1;startArrow=none;endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="V7P7OnKnSDBbbwoHf6N8-108">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="570.5" y="1325.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-130" value="依赖" style="curved=1;startArrow=none;endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="V7P7OnKnSDBbbwoHf6N8-115" target="V7P7OnKnSDBbbwoHf6N8-124">
