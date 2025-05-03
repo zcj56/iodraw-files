@@ -248,14 +248,11 @@
             <mxPoint x="482" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L0RZ6D7WRKf28F61VAbN-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0.995;entryY=0.893;entryDx=0;entryDy=0;exitX=0;exitY=0.249;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="L0RZ6D7WRKf28F61VAbN-28" target="L0RZ6D7WRKf28F61VAbN-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="479" y="789.24" as="sourcePoint" />
-            <mxPoint x="479.07400000000007" y="657.0005718645368" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="L0RZ6D7WRKf28F61VAbN-55" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="574.5" width="212" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="L0RZ6D7WRKf28F61VAbN-56" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="542" width="10" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
