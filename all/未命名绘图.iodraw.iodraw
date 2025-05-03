@@ -488,7 +488,7 @@
           <mxGeometry y="142.89999898274738" width="221" height="27" as="geometry" />
         </mxCell>
         <mxCell id="r7AKiX688jO8npXUW1Dk-15" value="ProgressBar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.149999618530273;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="85" y="307" width="111" height="128.29999961853028" as="geometry" />
+          <mxGeometry x="85" y="289" width="111" height="128.29999961853028" as="geometry" />
         </mxCell>
         <mxCell id="r7AKiX688jO8npXUW1Dk-16" value="-progress: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r7AKiX688jO8npXUW1Dk-15">
           <mxGeometry y="29.149999618530273" width="111" height="29" as="geometry" />
