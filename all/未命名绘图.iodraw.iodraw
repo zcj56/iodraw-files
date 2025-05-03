@@ -83,7 +83,7 @@
           <mxGeometry y="142.89999898274738" width="399" height="27" as="geometry" />
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-115" value="ResourceManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.899998982747395;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="769" y="750" width="294" height="169.89999898274738" as="geometry" />
+          <mxGeometry x="736" y="752" width="294" height="169.89999898274738" as="geometry" />
         </mxCell>
         <mxCell id="V7P7OnKnSDBbbwoHf6N8-116" value="- frame_buffer: deque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V7P7OnKnSDBbbwoHf6N8-115">
           <mxGeometry y="26.899998982747395" width="294" height="27" as="geometry" />
