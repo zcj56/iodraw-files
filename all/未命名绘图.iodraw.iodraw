@@ -366,6 +366,65 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gnIfd42VYDz7vrx93zrS-1" value="```mermaid&#xa;flowchart TD&#xa;    A[视频输入] --&gt; B[DetectionVisualizer]&#xa;    B --检测框数据--&gt; C[StatsPanel]&#xa;    B --高危行为--&gt; D[WarningEffect]&#xa;    C --统计信息--&gt; E[界面显示]&#xa;    D --警示信号--&gt; E&#xa;    B --帧数据--&gt; F[历史存储]&#xa;```&#xa;&#xa;&#xa;### 修改说明：&#xa;1. 将连接符 `--&gt;|标签|` 简化为 `--标签--&gt;`  &#xa;2. 使用直线箭头（Mermaid默认直线连接）&#xa;3. 保持核心节点和逻辑不变&#xa;&#xa;&#xa;### 直线连接效果：&#xa;```mermaid&#xa;flowchart TD&#xa;    A[视频输入] --&gt; B[DetectionVisualizer]&#xa;    B --检测框数据--&gt; C[StatsPanel]&#xa;    B --高危行为--&gt; D[WarningEffect]&#xa;    C --统计信息--&gt; E[界面显示]&#xa;    D --警示信号--&gt; E&#xa;    B --帧数据--&gt; F[历史存储]&#xa;```" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="256" height="411" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-2" value="视频输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="223" y="441" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-3" value="DetectionVisualizer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="185" y="539" width="200" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-4" value="StatsPanel" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="660" width="134" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-5" value="WarningEffect" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="204" y="660" width="162" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-6" value="界面显示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="124" y="781" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-7" value="历史存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="416" y="660" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-2" target="gnIfd42VYDz7vrx93zrS-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-9" value="检测框数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-3" target="gnIfd42VYDz7vrx93zrS-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-10" value="高危行为" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-3" target="gnIfd42VYDz7vrx93zrS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-11" value="统计信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.18;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-4" target="gnIfd42VYDz7vrx93zrS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-12" value="警示信号" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.82;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-5" target="gnIfd42VYDz7vrx93zrS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-13" value="帧数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-3" target="gnIfd42VYDz7vrx93zrS-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="478" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
