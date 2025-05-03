@@ -757,47 +757,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-2" value="Ui_MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="493" y="1247" width="214" height="296.2" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-3" value="- QWidget centralwidget" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="24.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-4" value="- QGroupBox groupBox" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="48.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-5" value="- QDoubleSpinBox doubleSpinBox" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="72.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-6" value="- QDoubleSpinBox doubleSpinBox_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="96.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-7" value="- QLabel label_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="120.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-8" value="- QLabel label_12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="144.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-9" value="- QGroupBox groupBox_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="168.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="192.2" width="214" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-11" value="+setupUi(MainWindow)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="200.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-12" value="+retranslateUi(MainWindow)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="224.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-13" value="+conf_value_change()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="248.2" width="214" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-14" value="+iou_value_change()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
-          <mxGeometry y="272.2" width="214" height="24" as="geometry" />
-        </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-18" value="Ui_MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.8545448996804;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1233" width="271" height="282.8545448996804" as="geometry" />
+          <mxGeometry x="492" y="1335" width="271" height="282.8545448996804" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-19" value="- QWidget centralwidget" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-18">
           <mxGeometry y="24.8545448996804" width="271" height="25" as="geometry" />
