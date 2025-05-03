@@ -389,13 +389,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnIfd42VYDz7vrx93zrS-9" value="检测框数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-3" target="gnIfd42VYDz7vrx93zrS-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="194" y="456" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gnIfd42VYDz7vrx93zrS-10" value="高危行为" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gnIfd42VYDz7vrx93zrS-3" target="gnIfd42VYDz7vrx93zrS-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -429,7 +422,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gnIfd42VYDz7vrx93zrS-15" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;检测框数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="353" width="73" height="27" as="geometry" />
+          <mxGeometry x="185" y="375" width="73" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gnIfd42VYDz7vrx93zrS-17" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="541" as="sourcePoint" />
+            <mxPoint x="437" y="491" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
