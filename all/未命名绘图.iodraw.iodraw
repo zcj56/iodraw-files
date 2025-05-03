@@ -265,9 +265,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-89" value="classDiagram&#xa;    class MainWindow {&#xa;        - visualizer: DetectionVisualizer&#xa;        - stats: StatsPanel&#xa;        - warning: WarningEffect&#xa;        - table: QTableWidget&#xa;        - filter: QComboBox&#xa;        + update_display()&#xa;        + highlight_target()&#xa;    }&#xa;&#xa;&#xa;    class DetectionVisualizer {&#xa;        - frame: ndarray&#xa;        - boxes: list&#xa;        + draw_boxes()&#xa;        + apply_zoom()&#xa;        + toggle_labels()&#xa;    }&#xa;&#xa;&#xa;    class StatsPanel {&#xa;        - total: int&#xa;        - max_conf: float&#xa;        + update(detections)&#xa;        + show_pie_chart()&#xa;    }&#xa;&#xa;&#xa;    class WarningEffect {&#xa;        - active: bool&#xa;        + trigger_alert()&#xa;        + stop_alert()&#xa;    }&#xa;&#xa;&#xa;    MainWindow --&gt; DetectionVisualizer : 控制&#xa;    MainWindow --&gt; StatsPanel : 更新&#xa;    MainWindow --&gt; WarningEffect : 触发&#xa;    MainWindow --&gt; QTableWidget : 显示数据&#xa;    MainWindow --&gt; QComboBox : 筛选目标&#xa;&#xa;&#xa;    DetectionVisualizer --&gt; OpenCV : 依赖" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="268" height="656" as="geometry" />
-        </mxCell>
         <mxCell id="rRAlUnp2YhWrFQ-NLSkE-90" value="MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25.774999618530273;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="383" y="686" width="244" height="215.77499961853027" as="geometry" />
         </mxCell>
