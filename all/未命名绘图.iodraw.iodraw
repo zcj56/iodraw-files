@@ -364,20 +364,6 @@
         <mxCell id="rRAlUnp2YhWrFQ-NLSkE-122" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rRAlUnp2YhWrFQ-NLSkE-121">
           <mxGeometry y="24.700000762939453" width="74" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-123" value="控制" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.7;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-90" target="rRAlUnp2YhWrFQ-NLSkE-99">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="475" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rRAlUnp2YhWrFQ-NLSkE-124" value="更新" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-90" target="rRAlUnp2YhWrFQ-NLSkE-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="686" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rRAlUnp2YhWrFQ-NLSkE-125" value="触发" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rRAlUnp2YhWrFQ-NLSkE-90" target="rRAlUnp2YhWrFQ-NLSkE-112">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
