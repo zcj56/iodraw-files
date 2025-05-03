@@ -757,6 +757,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ShRZxjk7uCB-lcTWOpNf-95" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ShRZxjk7uCB-lcTWOpNf-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-2" value="Ui_MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="493" y="1247" width="214" height="368.2" as="geometry" />
         </mxCell>
@@ -778,7 +783,7 @@
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-8" value="- QLabel label_12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="144.2" width="214" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="ShRZxjk7uCB-lcTWOpNf-9" value="+ ...其他方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
+        <mxCell id="ShRZxjk7uCB-lcTWOpNf-9" value="- QGroupBox groupBox_2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
           <mxGeometry y="168.2" width="214" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ShRZxjk7uCB-lcTWOpNf-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ShRZxjk7uCB-lcTWOpNf-2">
